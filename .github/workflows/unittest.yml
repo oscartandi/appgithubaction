@@ -8,7 +8,7 @@ on:
         
     pull_request:
             branches:
-                - main
+            - main
 
 jobs:
     test:
@@ -17,7 +17,7 @@ jobs:
         steps:
             # Step1 : check out the code form the repository
          - name: check out code
-           uses: action/checkout@v2
+           uses: actions/checkout@v2
 
 
             # Step 2:Set up python environment 
